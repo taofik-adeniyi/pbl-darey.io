@@ -1,0 +1,15 @@
+ssh -i <Your-private-key.pem> ubuntu@<EC2-Public-IP-address>
+
+my instace = ec2-3-14-65-196.us-east-2.compute.amazonaws.com
+
+to connect to my instance 
+ssh -i "tao.dev.pem" ubuntu@ec2-3-14-65-196.us-east-2.compute.amazonaws.com
+
+to know the status of nginx sudo systemctl status nginx
+
+
+
+any time you log into your server always run an update check 
+sudo apt update
+
+then run sudo apt upgrade to upgrade the ubuntu machine
