@@ -13,3 +13,6 @@ any time you log into your server always run an update check
 sudo apt update
 
 then run sudo apt upgrade to upgrade the ubuntu machine
+
+
+ssh -i "taofik_secure_key.pem" ec2-user@ec2-52-71-180-39.compute-1.amazonaws.com
